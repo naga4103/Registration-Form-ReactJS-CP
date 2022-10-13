@@ -1,0 +1,88 @@
+/* Write your CSS code here */
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.heading {
+  color: #ea580c;
+}
+.form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 4px 16px 0px #ea580c;
+  width: 80%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-radius: 10px;
+}
+
+@media screen and (min-width: 577px) {
+  .form-container {
+    width: 500px;
+  }
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 5px;
+}
+.label-class {
+  font-size: 15px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  font-family: 'Roboto';
+}
+.first-name {
+  width: 200px;
+  height: 25px;
+  outline: orangered;
+  margin-bottom: 0px;
+}
+.last-name {
+  width: 200px;
+  height: 25px;
+  outline: orangered;
+  margin-bottom: 0px;
+}
+.button-class {
+  color: white;
+  background-color: #ea580c;
+  border-width: 0px;
+  border-radius: 8px;
+  height: 30px;
+  margin-top: 8px;
+  cursor: pointer;
+}
+.error-msg {
+  color: red;
+  margin-top: 0px;
+}
+.success-icon {
+  width: 50px;
+}
+.succcess-para {
+  font-family: 'Courier New', Courier, monospace;
+}
+@media screen and (max-width: 500px) {
+  .app-container {
+    padding-left: 8px;
+  }
+  .form-container {
+    width: 98%;
+  }
+  .first-name {
+    width: 93%;
+  }
+  .last-name {
+    width: 93%;
+  }
+  .label-class {
+    font-size: 12px;
+  }
+}
