@@ -89,7 +89,7 @@ class RegistrationForm extends Component {
               LAST NAME
             </label>
             <input
-              type="password"
+              type="text"
               className="last-name"
               id="last-name"
               placeholder="Last name"
